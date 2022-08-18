@@ -1,0 +1,13 @@
+<!--  Learning ordered and unordered lists -->
+<h1>Movies</h1>
+<h2>My Top 3 Movies:</h2>
+ <ol>
+   <li>Spirited away (2001)</li>
+   <li>Captain Corelli's Mandolin (2001)</li>
+   <li>Pan's Labyrinth (2006)</li>
+ </ol>
+<h3>Least favorite ones</h3>
+ <ul>
+   <li>Jaws: The Revenge</li>
+   <li>Superbabies: Baby Geniuses 2 (2004)</li>
+ </ul>
