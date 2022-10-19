@@ -1,0 +1,69 @@
+/*
+The html file contains 25 <div> elements, each with the class of square. Please create a simple checkerboard pattern 
+by making the even squares black and the odd squares red.
+
+<!--DON'T TOUCH ANYTHING IN THIS FILE!-->
+<!doctype html>
+
+<html>
+<head>
+
+  <title>Checkerboard</title>
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+ <body>
+    <div id="board">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+    </div>
+</body>
+</html>
+
+*/
+.square {
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+#board {
+  display: flex;
+  margin: 0 auto;
+  width: 500px;
+  flex-wrap: wrap;
+}
+
+/* --------------------------------------------- */
+
+div:nth-child(odd) {
+    background-color: red;
+}
+
+div:nth-child(even) {
+    background-color: black;
+}
